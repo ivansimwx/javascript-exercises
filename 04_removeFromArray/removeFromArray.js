@@ -9,7 +9,7 @@ const removeFromArray = function( arrayGiven, ...toRemove) {
 
         for (let j=0; j<toRemove.length; j++) {
             console.log("Given is " + arrayGiven[i] + ". Remove item is " + toRemove[j]);
-            if (arrayGiven[i] == toRemove[j]){
+            if (arrayGiven[i] === toRemove[j]){
                 removeCheck = "true";
             }
         }
